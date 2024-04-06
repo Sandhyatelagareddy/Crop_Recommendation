@@ -1,0 +1,160 @@
+body {
+    background-image: url('crop11.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+.color{
+    -webkit-text-fill-color: #f8f9fa;
+    font-size: 35px;
+}
+
+.color1{
+    -webkit-text-fill-color: #4CAF50;
+    font-size: 35px;
+}
+
+
+.container {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container1 {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff4a;
+}
+
+.card h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group1 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group input:hover {
+    background-color: #ccc; 
+    color: #f8f9fa;
+  }
+
+#predictionResult {
+    margin-top: 20px;
+    
+}
+
+.card1 {
+    width: 400px;
+    margin: 10px;
+    margin-top: -75px; 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff43;
+    text-align: center;
+}
+
+
+
+.bb {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hh {
+    font-size: 45px;
+    text-shadow: #4CAF50;
+    margin-bottom: 20px;
+    -webkit-text-fill-color: #f8f9fa;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+#start-button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#start-button:hover {
+    background-color: #45a049;
+}
+
+.center {
+    text-align: center;
+    -webkit-text-fill-color: #f8f9fa;
+  }
+
+p{
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+@keyframes example {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  

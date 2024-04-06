@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Prediction</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body>
+    <div class="card">
+        <h1 class="color1">Crop Recommendation</h1><br>
+        <form action="/predict" method="post">
+            <div class="form-group">
+                <label for="N">Nitrogen:</label>
+                <input type="text" id="N" name="N" required><br><br>
+            </div>
+            <div class="form-group">
+                <label for="P">Phosphorous:</label>
+                <input type="text" id="P" name="P" required><br><br>
+            </div>
+            <div class="form-group">
+                <label for="K">Potassium:</label>
+                <input type="text" id="K" name="K" required><br><br>
+            </div>
+            <div class="form-group">
+                <label for="temperature">Temperature:</label>
+                <input type="text" id="temperature" name="temperature" required><br><br>
+            </div>
+            <div class="form-group">
+                <label for="humidity">Humidity:</label>
+                <input type="text" id="humidity" name="humidity" required><br><br>
+            </div>
+            <div class="form-group">
+                <label for="ph">PH:</label>
+                <input type="text" id="ph" name="ph" required><br><br>
+            </div>
+            <div class="form-group">
+                <label for="rainfall">Rainfall:</label>
+                <input type="text" id="rainfall" name="rainfall" required><br><br>
+            </div>
+            <div class="form-group" >
+                <input type="submit" value="Predict" required>
+            </div>
+        </form>
+        <div class="center">
+            <button id="start-button">
+                <a href="/">Home</a>
+            </button>
+        </div> 
+    </div>
+</body>
+</html>
